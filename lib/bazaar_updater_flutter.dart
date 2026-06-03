@@ -12,4 +12,4 @@ class BazaarUpdaterFlutter {
   }
 }
 
-# TODO: add remove short-hands and sdk range defination to change log
+// TODO: add remove short-hands and sdk range defination to change log
