@@ -11,5 +11,3 @@ class BazaarUpdaterFlutter {
     await BazaarUpdaterFlutterPlatform.instance.updateApplication();
   }
 }
-
-// TODO: add remove short-hands and sdk range defination to change log
