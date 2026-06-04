@@ -1,7 +1,7 @@
 name: bazaar_updater_flutter
 description: "Bazaar updater Flutter plugin."
 version: 0.0.1
-homepage:
+repository: https://github.com/Jafar-Rezazadeh/bazaar_updater_flutter
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
