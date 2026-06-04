@@ -6,7 +6,7 @@ class LastUpdateStateModel extends LastUpdateState {
 
   static LastUpdateState fromMapToEntity(Map<Object?, Object?>? mapObject) {
     if (mapObject == null) {
-      return LastUpdateState(state: .error, message: "empty result!");
+      return LastUpdateState(state: UpdateStateEnum.error, message: "empty result!");
     }
 
     final map = mapObject.map((key, value) => MapEntry(key.toString(), value as dynamic));

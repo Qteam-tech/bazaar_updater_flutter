@@ -1,8 +1,7 @@
 pluginManagement {
     plugins{
-        // TODO: remove version for both plugins on production
-        id("com.android.library") version "8.2.2"
-        id("org.jetbrains.kotlin.android") version "1.9.22"
+        id("com.android.library")
+        id("org.jetbrains.kotlin.android")
     }
     repositories {
         google()
@@ -24,8 +23,6 @@ dependencyResolutionManagement {
 
     }
 }
-
-
 
 
 rootProject.name = "bazaar_updater_flutter"
