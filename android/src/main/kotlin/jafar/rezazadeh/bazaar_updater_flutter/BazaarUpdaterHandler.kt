@@ -35,7 +35,7 @@ class BazaarUpdaterHandler(private val context: Context) {
                     val targetVersion = result.getTargetVersionCode()
                     callback(
                         mapOf(
-                            "state" to "NeedUpdate",
+                            "state" to "needUpdate",
                             "message" to "New version is Available",
                             "targetVersion" to targetVersion
                         )
